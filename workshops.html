@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Workshops COMPUDON Junior</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Feb 22 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+  <!-- Below Script section has been added to create tabs and put relative content in each tab.
+Related CSS was added in Tabs section in main.css -->
+
+  <script>
+    function openTab(event, tabId) {
+    // Hide all tab contents
+    let tabContents = document.querySelectorAll(".tab-content");
+    tabContents.forEach(content => content.style.display = "none");
+
+    // Remove active class from all buttons
+    let tabButtons = document.querySelectorAll(".tab-button");
+    tabButtons.forEach(button => button.classList.remove("active"));
+
+    // Show the clicked tab's content
+    document.getElementById(tabId).style.display = "block";
+
+    // Add active class to the clicked button
+    event.currentTarget.classList.add("active");
+    document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("tab1").style.display = "block"; // Keep Tab 1 open
+});
+}
+  </script>
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- <h1 class="sitename">COMPUDON Junior</h1> -->
+        <img src="assets/img/COMPUDON-JUNIOR-Transparent.png" style="width: 200%;" title="COMPUDON Junior"  alt="COMPUDON Junior"/>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+            <li class="dropdown"><a href="#"><span>Winners</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                 <ul>
+              <li><a href="regional_winners.html">Regional Winners</a></li>
+              <li><a href="international_winners.html">International Winners</a></li>
+              <li><a href="rankholders.html">National Rank Holders</a></li>
+               <li><a href="finalists.html">Finalists</a></li>
+                <li><a href="past_winners.html">Past Winners</a></li>
+                  </ul>
+          <li><a href="prizes.html">Prizes</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="hall_of_fame.html">Hall of Fame</a></li>
+             <li><a href="advisory_board.html">Advisory Board</a></li>
+          <li><a href="assets/docs/CJ-Season-V-FAQs.pdf">FAQs</a></li>
+            <li><a href="past_seasons.html">Past Seasons</a></li>
+           <li><a href="about.html">About Us</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
+         
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Workshops</li>
+          </ol>
+        </nav>
+        <h1>Workshops</h1>
+      </div>
+    </div><!-- End Page Title -->
+<div class="tabs">
+        <button class="tab-button active" onclick="openTab(event, 'tab1')">2025</button>
+        <button class="tab-button" onclick="openTab(event, 'tab2')">2024</button>
+        <button class="tab-button" onclick="openTab(event, 'tab3')">2023</button>
+        <!-- <button class="tab-button" onclick="openTab(event, 'tab3')">Tab 3</button> -->
+    </div>
+
+<!-- Tab1 starts here  -->
+
+         <div class="tab-content" id="tab1">
+        <h2>Workshops scheduled for Season VI (2025)</h2>
+    <!-- Vidrecord Section -->
+    <section id="team" class="vidrecord section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <!-- <h2>Registrations</h2> -->
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session1.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+            <br />
+                <br />
+                <p>Session 1: Understanding Technology Basics</p>
+                   <!--  <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EVtfZTjlHpRJqQQwlPVZbWkBjCBkLPH1B0wLvHNL0agEZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qb7Q4n" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/EWi2T-jOS6VKjXa0xRikn8EBhT9KYwXvubAocvXy9qCzNw?e=NYaMqt" target="_blank" rel="noopener">Presentation</a> -->
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session2.png" class="img-fluid" alt="Session 2"></div>
+              <div class="member-info">
+               <br />
+                <br />
+                <p>Session 2: Online Communiction and Protecting Digital Footprints</p>
+                <!--  <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/ETRzUmsO-xJNvz57boQoRYwBGpL7KeipUpSHy9LcJPwy6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hi620a" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/Eb-IiOfG0S9OmPm1ylxmfTEBCYsyuTopD5PjZNE8pod7CQ?e=TdtYZO" target="_blank" rel="noopener">Presentation</a> -->
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session3.png" class="img-fluid" alt="Session 3"></div>
+              <div class="member-info">
+              <br />
+                <br />
+                <p>Session 3: Protecting Your Digital Footprint</p>
+                 <!--  <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EdD0ZzcriztFr6Uw1sULy-sBQ1exPFZiD-uff70zNYW5Fg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5wdfK1" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EcZMfeipEGhNhBykVoOS-fIBFBNrwhQJh3b4ncAB0Y6vwA?e=8MJRc8" target="_blank" rel="noopener">Presentation</a> -->
+              
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session4.png" class="img-fluid" alt="Session 4"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 4: Best Practices for Secure Online Participation</p>
+                <!--<a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EZaRoDUmBO1Ai_x6wa18W9oBlZE2vRN9S22DpszHgeDOLQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9Ko4uA" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EareitmIIuZCqvA8mo1yb4oBKeoxIaB0hKpUy7xzkPzE0Q?e=gQloIq" target="_blank" rel="noopener">Presentation</a> -->
+              
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session5.png" class="img-fluid" alt="Session 5"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 5: Creating and Managing Digital Content</p>
+                <!-- <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXdn0boBVOpIvcIn0h1UmyMByrb6aaKwEXGeNZna0cZewA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gEQJnr" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/EQJRdlypaVtCh82S0CwUhZMB5XjLmvCBiOftaE0rbVIXWQ?e=GdqdhS" target="_blank" rel="noopener">Presentation</a> -->
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session6.png" class="img-fluid" alt="Session 6"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                 <p>Session 6: Dealing with Disinformation, Misinformation and Fake Newss</p>
+                <!-- <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXtchDP60Y9LuSp5mNp1lkABuWoJKMgyAhI3XhU7I7nKxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tDiryt" target="_blank" rel="noopener">Video Recording</a> -->
+                <br />
+            
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session7_3to5.png" class="img-fluid" alt="Session 7"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                         <p>Session 7 (Grades III to V): Introduction to Artificial Intelligence</p>
+<!--                
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXV6PDfJvLRLlF84xTf_MvkBtxLCkP-X8sHWBOoqMq8vmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sb00J1" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYCd7CKLRsRDhTZEcqBOB-YBNdK_1NrkQ0fOul0318P4xA?e=MS9j3R" target="_blank" rel="noopener">Presentation</a> -->
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session7_6plus.png" class="img-fluid" alt="Session 7"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                 <p>Session 7 (Grades VI & Above): Web 3.0 : The Dawn of a New Internet Era</p>
+               
+                <!-- <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EWtfGPwNEVZIopC2xdtZRuMB89O7tV8uOYbcci93YND7rQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1juir6" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYQzeogPc3VDkHAE2D58uSEBWZM7zesLsmgYbNGuZLEhpw?e=ymztrh" target="_blank" rel="noopener">Presentation</a> -->
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session8.png" class="img-fluid" alt="Session 8"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                 <p>Session 8 (Grades VI & Above): Coding made Easy</p>
+               
+                <!-- <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EWtfGPwNEVZIopC2xdtZRuMB89O7tV8uOYbcci93YND7rQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1juir6" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYQzeogPc3VDkHAE2D58uSEBWZM7zesLsmgYbNGuZLEhpw?e=ymztrh" target="_blank" rel="noopener">Presentation</a> -->
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/2025/session9.png" class="img-fluid" alt="Session 9"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                 <p>Session 9 (Grades VI & Above): Web 3.0 : Visualizing and Analyzing Data</p>
+               
+                <!-- <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EWtfGPwNEVZIopC2xdtZRuMB89O7tV8uOYbcci93YND7rQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1juir6" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYQzeogPc3VDkHAE2D58uSEBWZM7zesLsmgYbNGuZLEhpw?e=ymztrh" target="_blank" rel="noopener">Presentation</a> -->
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+    </div>  
+    <!-- Tab 1 Ends here -->
+
+
+
+
+<!-- Tab2 starts here  -->
+     <div class="tab-content" id="tab2">
+        <h2>Workshops conducted for Season V (2024)</h2>
+    <!-- Vidrecord Section -->
+    <section id="team" class="vidrecord section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <!-- <h2>Registrations</h2> -->
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide1-495x400.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 1: Understanding Technology Basics</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EVtfZTjlHpRJqQQwlPVZbWkBjCBkLPH1B0wLvHNL0agEZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qb7Q4n" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/EWi2T-jOS6VKjXa0xRikn8EBhT9KYwXvubAocvXy9qCzNw?e=NYaMqt" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide2-495x400.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 2: Online Communiction and Protecting Digital Footprints/p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/ETRzUmsO-xJNvz57boQoRYwBGpL7KeipUpSHy9LcJPwy6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hi620a" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/Eb-IiOfG0S9OmPm1ylxmfTEBCYsyuTopD5PjZNE8pod7CQ?e=TdtYZO" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide3-495x400.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 3: Best Practices for Secure Online Participation</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EdD0ZzcriztFr6Uw1sULy-sBQ1exPFZiD-uff70zNYW5Fg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5wdfK1" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EcZMfeipEGhNhBykVoOS-fIBFBNrwhQJh3b4ncAB0Y6vwA?e=8MJRc8" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide4-495x400.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 4: Creating and Managing Digital Content</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EZaRoDUmBO1Ai_x6wa18W9oBlZE2vRN9S22DpszHgeDOLQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9Ko4uA" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EareitmIIuZCqvA8mo1yb4oBKeoxIaB0hKpUy7xzkPzE0Q?e=gQloIq" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide5.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 5: Dealing with Disinformation, Misinformation and Fake Newss</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXdn0boBVOpIvcIn0h1UmyMByrb6aaKwEXGeNZna0cZewA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gEQJnr" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/EQJRdlypaVtCh82S0CwUhZMB5XjLmvCBiOftaE0rbVIXWQ?e=GdqdhS" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide6.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 6: Web 3.0 : The Dawn of a New Internet Era</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXtchDP60Y9LuSp5mNp1lkABuWoJKMgyAhI3XhU7I7nKxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tDiryt" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/resources_cyberlearningedusociety_org/EeQSTLQEzHNDoJ4tTN6hSskBz_CrCGmJQaIczPQlTOAhQQ?e=2kNTIU" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide7.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 7: Coding made Easy</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EXV6PDfJvLRLlF84xTf_MvkBtxLCkP-X8sHWBOoqMq8vmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sb00J1" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYCd7CKLRsRDhTZEcqBOB-YBNdK_1NrkQ0fOul0318P4xA?e=MS9j3R" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Slide8.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 8: Visualizing and Analyzing Data</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/resources_cyberlearningedusociety_org/EWtfGPwNEVZIopC2xdtZRuMB89O7tV8uOYbcci93YND7rQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1juir6" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:p:/g/personal/resources_cyberlearningedusociety_org/EYQzeogPc3VDkHAE2D58uSEBWZM7zesLsmgYbNGuZLEhpw?e=ymztrh" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+                    
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+    </div>  
+    <!-- Tab 2 Ends here -->
+
+
+
+
+
+
+         <div class="tab-content" id="tab3">
+        <h2>Workshops conducted towards Season IV (2023)</h2>
+    <!-- Vidrecord Section -->
+    <section id="team" class="vidrecord section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <!-- <h2>Registrations</h2> -->
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-1-Computer-Basics-2.png" class="img-fluid" alt="Session 1"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 1/6: Computer Basics</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/Ed61icKEWr1BjUr3X7onUygB_o1AjyfyHSg-TCLiWXFNKw?e=053ix2" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/EdJaxIMNxu1EmPHp-kJJTaYBHJ2fpWzYNXr8FKtAB6M0Sw" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-2-Accessing-Information-Communicating-Online.png" class="img-fluid" alt="Session 2"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 2/6: Accessing Information & Communicating Online</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/EcRd5R3hL0xHvWVRqSJ43owB-Gf32gaqn4MO42J-r-EH2g?e=nLPoxj" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/EQWLE70xyztAjgISBaHLBIsBd9uZGMDwkh-ugMrCNXp09g" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-3-Participating-Responsibly-Online-Cyber-Security.png" class="img-fluid" alt="Session 3"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 3/6: Participating Responsibly Online & Cyber Security</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/ESQH-OAODZ9EtON9bnCJF7cBJs9YYiqstIHkcFlCFjfsow?e=9lncyK" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/ER30Lezoaa5LowCd5aWiDDUByDLG3aSAgO30hxrp8nvlVA" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-4-Creating-Collaborating-and-Managing-Content-Digitally.png" class="img-fluid" alt="Session 4"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 4/6: Creating, Collaborating and Managing Content Digitally</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/EZZZ14pa3KdOj9I9KBo_jRkBsF0qQz--tMHe2V6c6q-wmQ?e=myMECw" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/Ea1LRBsrGvFOjP6Yolt33bgB2aGEl-WZPMrCEIM0RKFdbQ?e=mTllOB" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-5-Disinformation-Misinformation-Fake-News-2.png" class="img-fluid" alt="Session 5"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 5/6: Disinformation, Misinformation and Fake News</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/ES2zylTLA_9IlpvHyyxMnfYBnxSXDoNPlSlx1z47IKjGjA?e=A0MwIl" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/EQ3mtAxLTY9NvH_E65DeujYBuFE_L6OUtwnrxSXeifN-Dg?e=j8NxLD" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="recording d-flex align-items-start">
+              <div class="pic"><img src="assets/img/workshops/Workshop-6-Web-3.0-495x400.png" class="img-fluid" alt="Session 6"></div>
+              <div class="member-info">
+                <br />
+                <br />
+                <p>Session 6/6: Web 3.0</p>
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:v:/g/personal/support_cyberlearningedusociety_org/EU_6JR8ezhdKh8aSQEeWwyIBsV4JmGbOBXdclzbxGVIKwQ?e=0SA8gf" target="_blank" rel="noopener">Video Recording</a>
+                <br />
+                <a href="https://cyberlearningedusociety-my.sharepoint.com/:b:/g/personal/support_cyberlearningedusociety_org/EbplkzgLwNpCnJdMm0nI6UwB6xq7A3yr4k0cROAVPN99Lg?e=aZlFj8" target="_blank" rel="noopener">Presentation</a>
+                <!-- <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+                          
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+    </div>  
+    <!-- Tab 2 Ends here -->
+
+
+
+
+
+  </main>
+
+    <footer id="footer" class="footer dark-background">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 footer-about">
+          <!-- <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">COMPUDON Junior</span>
+          </a> -->
+          <img src="assets/img/CES-logo-white-300x74.png" width="70%" alt="CyberLearning Educational Society" />
+          <div class="footer-contact pt-3">
+            <!-- <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p> -->
+            <p>CyberLearning Educational Society (CES) is a NGO arm of India CyberLearning Pvt Ltd., which is a Global Training Partner of Microsoft and is a group of committed individuals who are problem-solvers &#038; leaders, who want to create a lasting change and want to empower &#038; secure every child through digital literacy for success in 21<sup>st</sup> century global economy.</p>
+            <p>For more than 15 years, CES has contributed to the cause of digital literacy through partnerships with National and Global NGOs and Foundations.</p>
+         
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h3>Featured Links</h3>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="legal.html">Legal</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="privacy_cookies.html">Privacy & Cookies</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms_service.html">Terms of service</a></li>
+             <li><i class="bi bi-chevron-right"></i> <a href="press_releases.html">Press Releases</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div> -->
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <!-- <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div> -->
+          <h3>Information</h3>
+             <p class="mt-3"><strong>Phone:</strong> <span>+91 83830 46545</span></p>
+            <p><strong>Email:</strong> <span>support-team@compudonjunior.co.in</span></p>
+            <img src="assets/img/GTP-High-Resolution.png" width="70%" alt="Microsoft Global Training Partner" />
+        </div>
+
+  <div class="col-lg-3 col-md-3 footer-link">
+        <h3><a href="https://www.flickr.com/photos/compudon_memoirs" style="color: white">COMPUDON Flickr Photos</a></h3>
+
+<a href="https://www.flickr.com/photos/compudon_memoirs"><img src="assets/img/flickr/pic1.jpg" width="100px" /></a>
+<a href="https://www.flickr.com/photos/compudon_memoirs"><img src="assets/img/flickr/pic2.jpg" width="100px" /></a>
+<br />
+<a href="https://www.flickr.com/photos/compudon_memoirs"><img src="assets/img/flickr/pic3.jpg" width="100px" /></a>
+<a href="https://www.flickr.com/photos/compudon_memoirs"><img src="assets/img/flickr/pic4.jpg" width="100px" /></a>
+ <!-- data-srcset="https://compudonjunior.in/wp-content/uploads/2022/10/DSC_7963-2-1030x687.jpg 1030w, https://compudonjunior.in/wp-content/uploads/2022/10/DSC_7963-2-300x200.jpg 300w, https://compudonjunior.in/wp-content/uploads/2022/10/DSC_7963-2-768x512.jpg 768w, https://compudonjunior.in/wp-content/uploads/2022/10/DSC_7963-2-705x470.jpg 705w, https://compudonjunior.in/wp-content/uploads/2022/10/DSC_7963-2.jpg 1200w" data-sizes="(max-width: 1030px) 100vw, 1030px"  aria-label="image image with no title" title="" alt=""    itemprop="thumbnailUrl" > -->
+  
+</div>
+      </div>
+    </div>
+<!-- 
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <div class="credits"> -->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+   <!--   </div>
+    </div> -->
+<div class="col-lg-12 col-md-12 footer-link" style="text-align: center;">
+  <br />
+  <br />
+    	  <span class='copyright'>© 2025 India CyberLearning Pvt. Ltd. All Rights Reserved.</span>
+</div>
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
