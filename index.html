@@ -78,7 +78,30 @@
             text-transform: uppercase;
         }
     </style>
+<style>
+  .btn-enroll {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 12px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
 
+ .btn-enroll hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+ .btn-enroll {
+    font-size: 13px;
+  }
+
+</style>
 
 </head>
 
@@ -168,8 +191,8 @@
         <h5 style="text-align: left;"><span style="color: #08063c; font-size: 20px;">Registration open till August 15, 2025</span></h5>
         <h5 style="text-align: left;"><span style="color: #08063c; font-size: 20px;">Fee Rs. 499/ per student (all inclusive)</span></h5>
         <!-- <h5 style="text-align: left;"><span style="color: #ffffff; font-size: medium;">Fee Rs. 499/ per student (all inclusive)</span></h5> -->
-          <div id="hero" class="d-flex">
-              <a href="https://courses.cyberlearning.in/" class="btn-get-started" color="#ffffff">Enroll Now</a>
+          <div class="d-flex">
+              <a href="https://courses.cyberlearning.in/" class="btn-enroll" color="#ffffff">Enroll Now</a>
               <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             </div>
 </div>
